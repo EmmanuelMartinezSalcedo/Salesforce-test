@@ -37,7 +37,6 @@ export default class EngagementSummary extends LightningElement {
           })
         );
 
-        // Refresca los datos
         refreshApex(this.wiredResult);
       })
       .catch(error => {
