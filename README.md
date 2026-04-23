@@ -37,8 +37,6 @@
 
 ## Links to LWC and Apex classes
 
-https://github.com/EmmanuelMartinezSalcedo/Salesforce-test
-
 ## Report and list view names
 
 **Report**
