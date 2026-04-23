@@ -1,0 +1,32 @@
+<template>
+  <lightning-card title="Engagement Summary">
+    
+    <div class="slds-p-around_medium">
+      
+      <p>
+        <strong>Opportunity Amount:</strong>
+        {opportunityAmount}
+      </p>
+
+      <p>
+        <strong>Completed Tasks:</strong>
+        {completedTasks}
+      </p>
+
+      <p>
+        <strong>Upcoming Events:</strong>
+        {upcomingEvents}
+      </p>
+
+      <br />
+
+      <lightning-button
+        label="Quick Follow-Up Call"
+        variant="brand"
+        onclick={handleFollowUp}>
+      </lightning-button>
+
+    </div>
+
+  </lightning-card>
+</template>
